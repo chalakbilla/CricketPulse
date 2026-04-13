@@ -289,7 +289,7 @@ const FLAGS = {
   'netherlands':'🇳🇱','scotland':'🏴󠁧󠁢󠁳󠁣󠁴󠁿','uae':'🇦🇪','oman':'🇴🇲',
   'usa':'🇺🇸','canada':'🇨🇦','namibia':'🇳🇦',
 };
-function flag(name) {
+function flag(name) { s
   if (!name) return '🏏';
   const l = name.toLowerCase();
   for (const [k,v] of Object.entries(FLAGS)) if (l.includes(k)) return v;
